@@ -1,0 +1,1 @@
+Running `gitruler` for a clone of this repository will confirm that you have correctly set up and run `gitruler`.

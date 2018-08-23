@@ -1,0 +1,9 @@
+{
+  "setup-files": [
+    {"path":"success.txt", "contents":"The setup stage of the check repository successfully ran"} 
+  ],
+  "rules":[
+    { "rule": "text", "separator":"-", "width":120, "heading":"CHECKING GITRULER", "double-space":true},
+    { "rule": "head-exists", "stop-on-fail":true, "alternative-title":"Gitruler ran successfully! A file called success.txt should also now exist in this directory"}
+  ]
+}
